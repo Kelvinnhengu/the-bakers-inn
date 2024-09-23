@@ -1,0 +1,21 @@
+.about-hero{
+    .hero-inner{
+        img{
+            width: 100%;
+            position: relative;
+        }
+        h1{
+            position: absolute;
+            bottom: -70px;
+            color: #ffffff;
+            background: linear-gradient(to bottom,transparent, black);
+            width: 96%;
+            font-family: bold;
+             
+        }
+
+        p{
+            font-family: medium;
+        }
+    }
+}

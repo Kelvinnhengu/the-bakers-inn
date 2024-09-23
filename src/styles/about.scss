@@ -1,0 +1,45 @@
+.about{
+    padding: 90px 30px;
+  .about-inner{
+    display: flex;
+    justify-content: space-between;
+
+
+    h1{
+      font-family: bold;
+    }
+
+    .about-two{
+        p{
+            width: 600px;
+            font-family: medium;
+            margin-top: 10px;
+        }
+
+        button{
+            border-radius: 3px;
+            border: none;
+            width: 150px;
+            height: 30px;
+              background-color: #B2904C;
+              color: #fff;
+              font-family: bold;
+           }
+
+           button:hover{
+            background-color: #261B6C;
+            transform: scale(1.2);
+            transition-duration: 100ms;
+           }
+    }
+  } 
+  
+  .pics{
+    padding-top: 100px;
+    
+    img{
+        width: 290px;
+        margin-left: 10px;
+    }
+  }
+}

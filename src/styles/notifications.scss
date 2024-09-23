@@ -1,0 +1,60 @@
+.notifications{
+    display: flex;
+    background-color:#B2904C ;
+    height: 60vh;
+    padding: 90px 0;
+    margin: 60px 0;
+    border-radius: 10px;
+
+    .text{
+        width: 55%;
+        color: #ffffff;
+        padding: 2px 40px;
+       
+        h1{
+            font-family: bold;
+              width: 80%;
+        }
+
+
+        
+            .form{
+                .the-form{
+                    position: relative;
+                    color: #ffffff;
+                   .email{
+                      background-color: #C6A460;
+                      width: 90%;
+                      height: 45px;
+                       border: none;
+                       color: #ffffff;
+                       border-radius: 5px;
+                   }
+                   .btn{
+                    position: absolute;
+                    right: 109px;
+                    background-color: #261B6C;
+                    color: #ffffff;
+                    margin-top: 3px;
+                    width: 100px;
+                }
+                }
+
+                
+            
+        }
+    }
+
+    
+       
+       
+        img{
+          
+           
+             
+        }
+    
+}
+
+
+ 

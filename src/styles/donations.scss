@@ -1,0 +1,41 @@
+.donations{
+    padding: 90px 30px;
+    display: flex;
+    background-color: #f8f8f8;
+
+    .pic{
+        img{
+            width: 550px;
+        }
+    }
+
+    .text{
+        padding: 90px 90px;
+
+        h1{
+            font-family: bold;
+        }
+        p{
+            width: 350px;
+            font-family: medium;
+           margin: 30px 0;
+        }
+        
+        
+        button{
+            border-radius: 3px;
+            border: none;
+            width: 200px;
+            height: 30px;
+              background-color: #B2904C;
+              color: #fff;
+              font-family: bold;
+           }
+
+           button:hover{
+            background-color: #261B6C;
+            transform: scale(1.2);
+            transition-duration: 100ms;
+           }
+    }
+}
