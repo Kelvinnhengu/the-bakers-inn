@@ -8,7 +8,7 @@ import './styles/footer.scss';
 import './styles/hero.scss';
 import './styles/about.scss'
 import './styles/product.scss'
-import './styles/booking.scss'
+import './styles/Booking.scss'
 import './styles/donations.scss'
 import './styles/kids.scss'
 import './styles/recipes.scss'
