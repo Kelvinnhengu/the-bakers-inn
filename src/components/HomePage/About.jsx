@@ -34,10 +34,22 @@ const About = () => {
       </div>
 
       <div className="pics">
-        <img src={about1} alt="" />
-        <img src={about2} alt="" />
-        <img src={about3} alt="" />
-        <img src={about4} alt="" />
+        <div className="container">
+          <div className="row">
+            <div className="col-12 col-md 3">
+              <img className="img-fluid" src={about1} alt="" />
+            </div>
+            <div className="col-12 col-md 3">
+              <img className="img-fluid" src={about2} alt="" />
+            </div>
+            <div className="col-12 col-md 3">
+              <img className="img-fluid" src={about3} alt="" />
+            </div>
+            <div className="col-12 col-md 3">
+              <img className="img-fluid" src={about4} alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

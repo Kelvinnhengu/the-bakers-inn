@@ -58,30 +58,33 @@
 
 
 
-@media (max-width: 568px) {
-    .hero{
-        text-align: center;
+@media (max-width: 320px) {
+    // body{
+    //     overflow-x: hidden;
+    // }
+    // .hero{
+    //     text-align: center;
 
-        .hero-inner1{
-            h1{
-               margin: 0 auto;
-            }
-            p{
-                margin: 0 auto;
-                margin-top: 30px;
-            }
-        }
+    //     .hero-inner1{
+    //         h1{
+    //            margin: 0 auto;
+    //         }
+    //         p{
+    //             margin: 0 auto;
+    //             margin-top: 30px;
+    //         }
+    //     }
 
-        .hero-inner2{
-            img{
-                display: none;
-            }
-        }
-    }
+    //     .hero-inner2{
+    //         img{
+    //             display: none;
+    //         }
+    //     }
+    // }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     .hero{
         text-align: center;
         width: 100%;

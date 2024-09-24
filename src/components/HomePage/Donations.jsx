@@ -8,7 +8,7 @@ const Donations = () => {
       <div className="row">
         <div className="col-12 col-md-6">
           <div className="pic">
-            <img src={donations} alt="" />
+            <img className="img-fluid" src={donations} alt="" />
           </div>
         </div>
         <div className="col-12 col-md-6">

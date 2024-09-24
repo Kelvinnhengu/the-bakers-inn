@@ -21,7 +21,7 @@ const Booking = () => {
         </div>
         <div className="col-12 col-md-6">
           <div className="pic">
-            <img src={booking} alt="" />
+            <img className="img-fluid" src={booking} alt="" />
           </div>
         </div>
       </div>
