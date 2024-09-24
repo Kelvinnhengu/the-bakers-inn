@@ -5,14 +5,23 @@ import kidscorner3 from "../../assets/images/kidscorner3.png";
 
 const KidsHero = () => {
   return (
-    <div className='kids-hero'>
+    <div className="kids-hero">
       <div className="hero-inner">
-        <img src={kidscorner1} alt="" />
-        <img src={kidscorner2} alt="" />
-        <img src={kidscorner3} alt="" />
+        
+        <div className="row">
+          <div className="col-12 col-md-4">
+            <img className="img-fluid one" src={kidscorner1} alt="" />
+          </div>
+          <div className="col-12 col-md-4">
+            <img className="img-fluid two" src={kidscorner2} alt="" />
+          </div>
+          <div className="col-12 col-md-4">
+            <img className="img-fluid three" src={kidscorner3} alt="" />
+          </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default KidsHero

@@ -1,0 +1,95 @@
+.about-hero{
+    .hero-inner{
+        img{
+            width: 100%;
+            position: relative;
+        }
+        h1{
+            position: absolute;
+            bottom: -102px;
+            color: #ffffff;
+            background: linear-gradient(to bottom,transparent, black, );
+            width: 95.5%;
+            font-family: bold;
+           
+           
+             
+        }
+
+        p{
+            font-family: medium;
+        }
+    }
+}
+
+// OUR MISSION
+
+.our-mission{
+    background-color:#F7F5E8 ;
+    padding: 80px 0;
+    margin: 100px 0;
+
+    h2{
+        font-family: bold;
+    }
+}
+
+// OUR VALUES 
+
+.our-values{
+    text-align: center;
+    color: #261B6C;
+    margin: 40px 0;
+    padding: 40px 0;
+    background-color: #F8F8F8;
+    h2{
+        font-family: bold;
+
+    }
+
+    .first-cards{
+        .card{
+            height: 450px;
+            border: none;
+            
+            color: #261B6C;
+            padding: 20px 20px;
+            background-color: #F8F8F8;
+        }
+    }
+
+    .second-cards{
+       
+        .two{
+            margin-left: 200px;
+        }
+        .card{
+            padding: 20px 20px;
+            height: 450px;
+            border: none;
+          color: #261B6C;
+          background-color: #F8F8F8;
+        }
+
+    }
+}
+
+
+.promises{
+      margin: 100px 0;
+      padding: 0 30px ;
+
+    .text{
+        padding: 30px 0;
+        h2{
+            font-family: bold;
+            margin-bottom: 30px;
+            margin-left: 20px;
+        }
+
+        p{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+    }
+}

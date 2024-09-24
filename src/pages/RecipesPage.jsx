@@ -1,11 +1,13 @@
 import React from 'react'
+import Recipes from "../components/HomePage/Recipes";
 
 const RecipesPage = () => {
   return (
-    <div>
-      <h1>recipes</h1>
-    </div>
+    <>
+      <Recipes/>
+    </>
   )
 }
 
 export default RecipesPage
+

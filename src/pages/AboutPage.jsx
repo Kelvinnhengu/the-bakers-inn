@@ -1,16 +1,16 @@
 import React from "react";
 import AboutHero from "../components/AboutPage/AboutHero";
-// import OurMission from "../components/About Us/OurMission";
-// import OurValues from "../components/About Us/OurValues";
-// import Promises from "../components/About Us/Promises";
+import OurMission from "../components/AboutPage/OurMission";
+import OurValues from "../components/AboutPage/OurValues";
+import Promises from "../components/AboutPage/Promises";
 
 const AboutPage = () => {
   return (
     <div>
       <AboutHero />
-      {/* <OurMission />
+      <OurMission />
       <OurValues />
-      <Promises /> */}
+      <Promises />
     </div>
   );
 };

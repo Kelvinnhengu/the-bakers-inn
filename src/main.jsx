@@ -13,8 +13,9 @@ import './styles/donations.scss'
 import './styles/kids.scss'
 import './styles/recipes.scss'
 import './styles/notifications.scss'
-import  './styles/AboutPage/abouthero.scss'
+import  './styles/AboutPage/aboutpage.scss'
 import './styles/Kids Corner/Games.scss'
+
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
