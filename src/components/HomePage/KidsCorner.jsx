@@ -3,6 +3,7 @@ import kids1 from '../../assets/images/kids1.png'
 import kids2 from '../../assets/images/kids2.png'
 import kids3 from '../../assets/images/kids3.png'
 import mario from '../../assets/images/Mario.png'
+import kidscorner from '../../assets/images/KIDS-CORNER.png'
 
 const KidsCorner = () => {
   return (
@@ -15,6 +16,7 @@ const KidsCorner = () => {
         </div>
         <div className="col-12 col-md-6">
           <div className="text">
+            <img className='img-fluid' src={kidscorner} alt="" />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui hic
               doloremque, ullam libero doloribus quis odit incidunt neque?

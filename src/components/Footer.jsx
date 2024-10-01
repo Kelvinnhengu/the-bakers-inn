@@ -10,13 +10,14 @@ const Footer = () => {
       <div className="top">
         <div className="row">
           <div className="col-12 col-md-5">
-            <hr />
+            
+            <hr className="hr1" />
           </div>
           <div className="col-12 col-md-2">
             <img className="img-fluid" src={footer4} alt="" />
           </div>
           <div className="col-12 col-md-5">
-            <hr />
+            <hr className="hr2" />
           </div>
         </div>
       </div>
@@ -84,7 +85,7 @@ const Footer = () => {
           <div className="two">
             <p>
               Copyright 2022 Bakers Inn. All rights reserved. Site by{" "}
-              <span>NoWalls Pan Africa</span>
+              <span>K3LV1N NH3NGU</span>
             </p>
           </div>
         </div>

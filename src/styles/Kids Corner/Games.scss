@@ -1,139 +1,189 @@
-.kids-hero{
+.kids-hero {
     margin: 80px 0;
-    .hero-inner{
-        .one{
-            margin: 80px 0;
-            width: 350px;
-        }
 
-        
+    .hero-inner {
+        .one {
+            margin: 80px 0;
+            width: 100%; // Changed to 100% for responsiveness
+            max-width: 350px; // Set a max width
+        }
     }
 }
 
-
-
-
-.maze{
+.maze {
     background-color: #018BF1;
     color: #ffffff;
     padding: 25px 0;
     border-radius: 10px;
     margin: 30px 0;
-    .text{
+
+    .text {
         padding-top: 100px;
-        h2{
+
+        h2 {
             font-family: bold;
         }
-        p{
-            
+
+        p {
+            // Add any necessary styles here
         }
-       
-        button{
+
+        button {
             border-radius: 3px;
             margin-top: 20px;
             border: none;
-            width: 150px;
+            width: 100%; // Changed to 100% for responsiveness
+            max-width: 150px; // Set a max width
             height: 35px;
-              background-color: #B2904C;
-              color: #fff;
-              font-family: bold;
-           }
+            background-color: #B2904C;
+            color: #fff;
+            font-family: bold;
+        }
 
-           button:hover{
+        button:hover {
             background-color: #261B6C;
             transform: scale(1.2);
             transition-duration: 100ms;
-           }
+        }
     }
 
-    .pic{
-        .maze{
-            width: 400px;
-            // margin-left: 80px;
+    .pic {
+        .maze {
+            width: 100%; // Changed to 100% for responsiveness
+            max-width: 400px; // Set a max width
         }
     }
 }
 
-
-.risky{
-   background-color: #FF4655;
+.risky {
+    background-color: #FF4655;
     color: #ffffff;
     padding: 25px 0;
     border-radius: 10px;
     margin: 30px 0;
-    .container{
+
+    .container {
         padding: 60px 0;
-        .text{
-       
-        h2{
-            font-family: bold;
+
+        .text {
+            h2 {
+                font-family: bold;
+            }
+
+            button {
+                border-radius: 3px;
+                margin-top: 20px;
+                border: none;
+                width: 100%; // Changed to 100% for responsiveness
+                max-width: 150px; // Set a max width
+                height: 35px;
+                background-color: #ffffff;
+                color: #FF4655;
+                font-family: bold;
+            }
+
+            button:hover {
+                background-color: #018BF1;
+                transform: scale(1.2);
+                transition-duration: 100ms;
+                color: #fff;
+            }
         }
-        
-
-        button{
-            border-radius: 3px;
-            margin-top: 20px;
-            border: none;
-            width: 150px;
-            height: 35px;
-              background-color: #ffffff;
-              color: #FF4655;
-              font-family: bold;
-           }
-
-           button:hover{
-            background-color: #018BF1;
-            transform: scale(1.2);
-            transition-duration: 100ms;
-            color: #fff   ;
-           }
     }
-    }
-     
-
-
-
-
-
-
-        
 }
 
-
-
-
-.pacman{
+.pacman {
     background-color: #261B6C;
     color: #ffffff;
     margin: 30px 0;
     border-radius: 10px;
-    .text{
+
+    .text {
         padding-top: 100px;
-        h2{
+
+        h2 {
             font-family: bold;
         }
-       
-        button{
+
+        button {
             border-radius: 3px;
             margin-top: 20px;
             border: none;
-            width: 150px;
+            width: 100%; // Changed to 100% for responsiveness
+            max-width: 150px; // Set a max width
             height: 35px;
-              background-color: #B2904C;
-              color: #fff;
-              font-family: bold;
-           }
+            background-color: #B2904C;
+            color: #fff;
+            font-family: bold;
+        }
 
-           button:hover{
+        button:hover {
             background-color: #FF4655;
             transform: scale(1.2);
             transition-duration: 100ms;
-           }
+        }
     }
-    .pic{
-        img{
-            width: 500px;
+
+    .pic {
+        img {
+            width: 100%; // Changed to 100% for responsiveness
+            max-width: 500px; // Set a max width
         }
     }
 }
 
+// Media Queries for additional responsiveness
+@media (max-width: 768px) {
+    .kids-hero {
+        margin: 40px 0;
+       .two{
+        display: none;
+       }
+       .three{
+        display: none;
+       }
+
+        .hero-inner {
+            .one {
+                margin: 40px 0;
+            }
+        }
+    }
+
+    .maze, .risky, .pacman {
+        margin: 20px 0;
+          text-align: center;
+
+        .text {
+            padding-top: 20px; // Reduce padding for smaller screens
+        }
+
+        button {
+            width: 100%;
+        }
+        img{
+            display: none;
+          
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .kids-hero {
+        margin: 20px 0;
+        .two{
+        display: none;
+       }
+       .three{
+        display: none;
+       }
+    }
+
+    .maze, .risky, .pacman {
+        margin: 10px 0;
+
+        .text {
+            padding-top: 30px; // Further reduce padding
+        }
+    }
+}

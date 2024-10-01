@@ -5,16 +5,12 @@ import './assets/fonts/font.scss'
 import './styles/index.scss'
 import "./styles/Navbar.scss";
 import './styles/footer.scss';
-import './styles/hero.scss';
-import './styles/about.scss'
-import './styles/product.scss'
-import './styles/Booking.scss'
-import './styles/donations.scss'
-import './styles/kids.scss'
+
 import './styles/recipes.scss'
-import './styles/notifications.scss'
+import './styles/contact.scss'
 import  './styles/AboutPage/aboutpage.scss'
 import './styles/Kids Corner/Games.scss'
+import'./styles/homepage.scss'
 
 
 

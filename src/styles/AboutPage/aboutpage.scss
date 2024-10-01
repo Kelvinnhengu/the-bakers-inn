@@ -1,95 +1,175 @@
-.about-hero{
-    .hero-inner{
-        img{
-            width: 100%;
-            position: relative;
-        }
-        h1{
-            position: absolute;
-            bottom: -102px;
-            color: #ffffff;
-            background: linear-gradient(to bottom,transparent, black, );
-            width: 95.5%;
-            font-family: bold;
-           
-           
-             
-        }
+/* About Hero Section */
 
-        p{
-            font-family: medium;
-        }
+.about-hero {
+  .hero-inner {
+    img {
+      width: 100%;
+      position: relative;
     }
+
+    h1 {
+      position: absolute;
+      bottom: -70px;
+      color: #ffffff;
+      background: linear-gradient(to bottom, transparent, black);
+      width: 96%;
+      font-family: bold;
+    }
+
+    p {
+      font-family: medium;
+    }
+  }
 }
 
-// OUR MISSION
+/* Our Mission Section */
 
-.our-mission{
-    background-color:#F7F5E8 ;
-    padding: 80px 0;
-    margin: 100px 0;
+.our-mission {
+  background-color: #F7F5E8;
+  padding: 80px 0;
+  margin: 100px 0;
 
-    h2{
-        font-family: bold;
-    }
-}
+  h2 {
+    font-family: bold;
+  }
 
-// OUR VALUES 
-
-.our-values{
-    text-align: center;
-    color: #261B6C;
-    margin: 40px 0;
-    padding: 40px 0;
-    background-color: #F8F8F8;
-    h2{
-        font-family: bold;
-
-    }
-
-    .first-cards{
-        .card{
-            height: 450px;
-            border: none;
-            
-            color: #261B6C;
-            padding: 20px 20px;
-            background-color: #F8F8F8;
-        }
-    }
-
-    .second-cards{
-       
-        .two{
-            margin-left: 200px;
-        }
-        .card{
-            padding: 20px 20px;
-            height: 450px;
-            border: none;
-          color: #261B6C;
-          background-color: #F8F8F8;
-        }
-
-    }
-}
-
-
-.promises{
-      margin: 100px 0;
-      padding: 0 30px ;
-
+  .first{
     .text{
-        padding: 30px 0;
-        h2{
-            font-family: bold;
-            margin-bottom: 30px;
-            margin-left: 20px;
-        }
-
-        p{
-            font-size: 15px;
-            margin-left: 20px;
-        }
+      img{
+        width: 20%;
+      }
+      display: flex;
     }
+  }
+
+}
+
+/* Our Values Section */
+
+.our-values {
+  text-align: center;
+  color: #261B6C;
+  margin: 40px 0;
+  padding: 40px 0;
+  background-color: #F8F8F8;
+
+  h2 {
+    font-family: bold;
+  }
+
+  .first-cards {
+    .card {
+      height: 450px;
+      border: none;
+      color: #261B6C;
+      padding: 20px;
+      background-color: #F8F8F8;
+    }
+  }
+
+  .second-cards {
+    .two {
+      margin-left: 200px;
+    }
+
+    .card {
+      padding: 20px;
+      height: 450px;
+      border: none;
+      color: #261B6C;
+      background-color: #F8F8F8;
+    }
+  }
+}
+
+/* Promises Section */
+
+.promises {
+  margin: 100px 0;
+  padding: 0 30px;
+
+  .text {
+    padding: 30px 0;
+
+    h2 {
+      font-family: bold;
+      margin-bottom: 30px;
+      margin-left: 20px;
+    }
+
+    p {
+      font-size: 15px;
+      margin-left: 20px;
+    }
+  }
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1200px) {
+  .our-values .second-cards .two {
+    margin-left: 100px; /* Adjust for larger screens */
+  }
+}
+
+@media (max-width: 992px) {
+  .our-values .second-cards .two {
+    margin-left: 50px; /* Adjust for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .our-values .second-cards .two {
+    margin-left: 0; /* Stack on smaller screens */
+    text-align: center; /* Center text */
+  }
+
+  .first-cards .card,
+  .second-cards .card {
+    height: auto; /* Allow cards to be flexible */
+    margin-bottom: 20px; /* Add spacing between cards */
+  }
+
+  .promises {
+    padding: 0 15px; /* Reduce padding */
+  }
+
+  .promises .text h2,
+  .promises .text p {
+    margin-left: 0; /* Center align text */
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero .hero-inner h1 {
+    font-size: 24px; /* Adjust font size for small screens */
+    bottom: -80px; /* Adjust position */
+  }
+
+  .promises .text p {
+    font-size: 14px; /* Smaller font size */
+  }
+}
+@media (max-width: 425px){
+    .about-hero {
+  .hero-inner {
+    display: none;
+    
+  }
+}
+
+.our-mission {
+  background-color: #F7F5E8;
+  
+  
+    .first{
+      width: 100%;
+    }
+  h2 {
+    font-family: bold;
+  }
+}
+
+
 }

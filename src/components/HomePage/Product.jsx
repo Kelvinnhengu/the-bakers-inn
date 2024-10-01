@@ -15,25 +15,25 @@ const Products = () => {
         <div className="row">
           <div className="col-12 col-md-3">
             <div className="product">
-              <img src={product1} alt="" />
+              <img className="img-fluid" src={product1} alt="" />
               <h3>Bread</h3>
             </div>
           </div>
           <div className="col-12 col-md-3">
             <div className="product">
-              <img src={product2} alt="" />
+              <img className="img-fluid" src={product2} alt="" />
               <h3>Meat Pies</h3>
             </div>
           </div>
           <div className="col-12 col-md-3">
             <div className="product">
-              <img src={product3} alt="" />
+              <img className="img-fluid" src={product3} alt="" />
               <h3>Scones</h3>
             </div>
           </div>
           <div className="col-12 col-md-3">
             <div className="product">
-              <img src={product4} alt="" />
+              <img className="img-fluid" src={product4} alt="" />
               <h3>Donuts</h3>
             </div>
           </div>
